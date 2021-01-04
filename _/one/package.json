@@ -1,0 +1,28 @@
+{
+  "name": "nem",
+  "version": "1.0.0",
+  "description": "Tutorial of node express mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect server.js"
+  },
+  "keywords": [
+    "learning",
+    "express",
+    "mongodb"
+  ],
+  "author": "Joris Hermans",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "cowsay": "^1.1.9",
+    "mongodb": "^2.2.31",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  }
+}

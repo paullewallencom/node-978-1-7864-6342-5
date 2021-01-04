@@ -1,0 +1,663 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "88b5-ii6i",
+      "name" : "Electric Vehicle Charging Stations",
+      "attribution" : "Department of Energy and Environmental Protection",
+      "attributionLink" : "http://www.ct.gov/deep/lib/deep/air/electric_vehicle/ev_charging_stations_in_ct_and_15min_coverage.pdf",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1397667903,
+      "description" : "Existing public Electric Vehicle (EV) charging stations within Connecticut from\nUS DOE map found at http://www.afdc.energy.gov/locator/stations/\ncomplemented with research done by DEEP as of 04/07/14",
+      "displayType" : "table",
+      "downloadCount" : 1683,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1458059609,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 18641017,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1458052839,
+      "publicationGroup" : 1548425,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1457727302,
+      "rowsUpdatedBy" : "ctuy-ciqy",
+      "tableId" : 8769706,
+      "totalTimesRated" : 0,
+      "viewCount" : 601,
+      "viewLastModified" : 1458052839,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 245887377,
+        "name" : "Location Name",
+        "dataTypeName" : "text",
+        "fieldName" : "location_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19223328,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 215,
+          "largest" : "Yankee Doodle Garage",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Tri-Town Teachers Federal Credit Union",
+            "count" : 20
+          }, {
+            "item" : "CT Department of Corrections",
+            "count" : 19
+          }, {
+            "item" : "CT Department of Motor Vehicles",
+            "count" : 18
+          }, {
+            "item" : "Panera Bread",
+            "count" : 17
+          }, {
+            "item" : "Eastern Connecticut State University-Shakespeare Parking Garage",
+            "count" : 16
+          }, {
+            "item" : "Bruce Bennett Nissan",
+            "count" : 15
+          }, {
+            "item" : "Wilton Pubic Library",
+            "count" : 14
+          }, {
+            "item" : "Windham Town Hall",
+            "count" : 13
+          }, {
+            "item" : "Woodbridge Town Hall",
+            "count" : 12
+          }, {
+            "item" : "Illiano's Grill",
+            "count" : 11
+          } ],
+          "smallest" : "644 West Putnam"
+        },
+        "format" : { }
+      }, {
+        "id" : 245887378,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19223329,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 215,
+          "largest" : "Wakeley Street Parking Lot  ",
+          "null" : 0,
+          "top" : [ {
+            "item" : "61 Jessup Road",
+            "count" : 20
+          }, {
+            "item" : "38 Wolcott Hill Road",
+            "count" : 19
+          }, {
+            "item" : "60 State Street",
+            "count" : 18
+          }, {
+            "item" : "1129 Silas Deane Hwy",
+            "count" : 17
+          }, {
+            "item" : "24 Charger Oak Drive",
+            "count" : 16
+          }, {
+            "item" : "978 Danbury Road",
+            "count" : 15
+          }, {
+            "item" : "137 Old Ridgefield Road",
+            "count" : 14
+          }, {
+            "item" : "979 Main Street",
+            "count" : 13
+          }, {
+            "item" : "11 Meetinghouse Lane",
+            "count" : 12
+          }, {
+            "item" : "257 West Town Street",
+            "count" : 11
+          } ],
+          "smallest" : "100 Asylum Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 245887380,
+        "name" : "Hours Open",
+        "dataTypeName" : "text",
+        "fieldName" : "hours_open",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19223331,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 215,
+          "largest" : "Town Hall Hours",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9 AM-5 PM M-Sat",
+            "count" : 20
+          }, {
+            "item" : "Open 24 Hours",
+            "count" : 19
+          }, {
+            "item" : "9 AM-5 PM M-Th, 9 AM-2 PM F-Sat",
+            "count" : 18
+          }, {
+            "item" : "Town Hall Hours",
+            "count" : 17
+          }, {
+            "item" : "Dealership Hours",
+            "count" : 16
+          }, {
+            "item" : "9AM-5PM M-F",
+            "count" : 15
+          }, {
+            "item" : "9 AM-5PM M-F",
+            "count" : 14
+          }, {
+            "item" : "5AM-2AM M-Sat, 8AM-2AM Sun",
+            "count" : 13
+          }, {
+            "item" : "24 hours daily",
+            "count" : 12
+          }, {
+            "item" : "9:30 AM-5:30 PM M-Sat, 11AM-5PM Sun",
+            "count" : 11
+          }, {
+            "item" : "Business Hours",
+            "count" : 10
+          }, {
+            "item" : "Customers Only",
+            "count" : 9
+          }, {
+            "item" : "Daily: 6AM-Midnight",
+            "count" : 8
+          }, {
+            "item" : "Garage Hours",
+            "count" : 7
+          }, {
+            "item" : "Daily: 6Am-3AM",
+            "count" : 6
+          }, {
+            "item" : "Dealership business hours",
+            "count" : 5
+          }, {
+            "item" : "Open 24 Hours-Guests Only",
+            "count" : 4
+          }, {
+            "item" : "Open 24/7 is a pay lot ",
+            "count" : 3
+          }, {
+            "item" : "8 AM-7 PM M-Thur, 8 AM-5 PM F-Sun",
+            "count" : 2
+          }, {
+            "item" : "Lot Hours",
+            "count" : 1
+          } ],
+          "smallest" : "10 AM-8 PM M-Th, 10 AM-6 PM F, 1 PM"
+        },
+        "format" : { }
+      }, {
+        "id" : 245887381,
+        "name" : "Level",
+        "dataTypeName" : "text",
+        "fieldName" : "level",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19223332,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 215,
+          "largest" : "Tesla",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2",
+            "count" : 20
+          }, {
+            "item" : "2, DC",
+            "count" : 19
+          }, {
+            "item" : "DC",
+            "count" : 18
+          }, {
+            "item" : "Tesla",
+            "count" : 17
+          }, {
+            "item" : "1, 2",
+            "count" : 16
+          }, {
+            "item" : "1, 2, Tesla",
+            "count" : 15
+          }, {
+            "item" : "2, Tesla",
+            "count" : 14
+          } ],
+          "smallest" : "1, 2"
+        },
+        "format" : { }
+      }, {
+        "id" : 245887382,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 6,
+        "renderTypeName" : "location",
+        "tableColumnId" : 19223333,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 215,
+          "largest" : {
+            "latitude" : "41.2335",
+            "human_address" : "{\"address\":\"Wakeley Street Parking Lot\",\"city\":\"Seymour\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-73.0434"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "41.139781",
+              "human_address" : "{\"address\":\"61 Jessup Road\",\"city\":\"Westport\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-73.358518"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "41.725002",
+              "human_address" : "{\"address\":\"38 Wolcott Hill Road\",\"city\":\"Wethersfield\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-72.6724544"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "41.7186625",
+              "human_address" : "{\"address\":\"60 State Street\",\"city\":\"Wethersfield\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-72.655754"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "41.69034",
+              "human_address" : "{\"address\":\"1129 Silas Deane Hwy\",\"city\":\"Wethersfield\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-72.6559"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "41.738591",
+              "human_address" : "{\"address\":\"24 Charger Oak Drive\",\"city\":\"Willimantic\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-72.217383"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "41.26043",
+              "human_address" : "{\"address\":\"978 Danbury Road\",\"city\":\"Wilton\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-73.435421"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "41.192668",
+              "human_address" : "{\"address\":\"137 Old Ridgefield Road\",\"city\":\"Wilton\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-73.431569"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "41.71292",
+              "human_address" : "{\"address\":\"979 Main Street\",\"city\":\"Windham\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-72.217506"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "41.354106",
+              "human_address" : "{\"address\":\"11 Meetinghouse Lane\",\"city\":\"Woodbridge\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-73.014774"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "41.557556",
+              "human_address" : "{\"address\":\"257 West Town Street\",\"city\":\"Yantic\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-72.1136"
+            },
+            "count" : 11
+          } ],
+          "smallest" : {
+            "latitude" : "41.6717114",
+            "human_address" : "{\"address\":\"1 Central Square\",\"city\":\"Plainville\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-72.8670213"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "y42v-8saz",
+        "displayName" : "NDavidson",
+        "roleName" : "editor",
+        "screenName" : "NDavidson",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "y42v-8saz",
+        "displayName" : "NDavidson",
+        "roleName" : "editor",
+        "screenName" : "NDavidson",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "ev", "ct", "charging stations" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "8649ADE3-9483-4BDD-8E8D-455819205424", 1, 1457698447, "930201", 1457698447, "930201", null, "Lombard Ford Inc.", "385 New Hartford Road", "9 AM-5 PM M-Sat", "2", [ "{\"address\":\"385 New Hartford Road\",\"city\":\"Barkhamsted\",\"state\":\"\",\"zip\":\"\"}", "41.909669", "-73.042491", null, false ] ]
+, [ 2, "F3AB334A-A4C8-4E3F-B9D6-057100757C45", 2, 1457698447, "930201", 1457698447, "930201", null, "Town of Beacon Falls-Commuter Lot", "105 N. Main Street", "Open 24 Hours", "2", [ "{\"address\":\"105 N. Main Street\",\"city\":\"Beacon Falls\",\"state\":\"\",\"zip\":\"\"}", "41.445472", "-73.065616", null, false ] ]
+, [ 3, "AC86C8CF-3CE3-475D-9158-DD6A2EA6559B", 3, 1457698447, "930201", 1457698447, "930201", null, "Morande Ford", "250 Webster Square Road", "9 AM-5 PM M-Th, 9 AM-2 PM F-Sat", "2", [ "{\"address\":\"250 Webster Square Road\",\"city\":\"Berlin\",\"state\":\"\",\"zip\":\"\"}", "41.631028", "-72.742309", null, false ] ]
+, [ 4, "886E2A9D-25F6-4D9E-A1DC-8ECEFBF1C5DD", 4, 1457698447, "930201", 1457698447, "930201", null, "Northeast Utility Services ", "107 Seldon Street", "Open 24 Hours", "2", [ "{\"address\":\"107 Seldon Street\",\"city\":\"Berlin\",\"state\":\"\",\"zip\":\"\"}", "41.6495951", "-72.7252489", null, false ] ]
+, [ 5, "ABBB0A24-D5F3-48E5-B6F6-FF05DF73CEBF", 5, 1457698447, "930201", 1457698447, "930201", null, "Bethel Metro-North Train Station", "13 Durant Ave", "Open 24 Hours", "2", [ "{\"address\":\"13 Durant Ave\",\"city\":\"Bethel\",\"state\":\"\",\"zip\":\"\"}", "41.376431", "-73.417444", null, false ] ]
+, [ 6, "4F9B27DB-93A9-4351-8904-BAB1260F5A6C", 6, 1457698447, "930201", 1457698447, "930201", null, "Town of Bethel", "5 Depot Place", "Open 24 Hours", "2", [ "{\"address\":\"5 Depot Place\",\"city\":\"Bethel\",\"state\":\"\",\"zip\":\"\"}", "41.370439", "-73.414611", null, false ] ]
+, [ 7, "6A987298-DC59-4234-8EE9-CE7267229F62", 7, 1457698447, "930201", 1457698447, "930201", null, "Bloomfield Town Hall", "800 Bloomfield Avenue", "Town Hall Hours", "2", [ "{\"address\":\"800 Bloomfield Avenue\",\"city\":\"Bloomfield\",\"state\":\"\",\"zip\":\"\"}", "41.8298475", "-72.7373929", null, false ] ]
+, [ 8, "6676BB8C-1F34-49EB-A398-484CE3ABB4EE", 8, 1457698447, "930201", 1457698447, "930201", null, "Ford of Branford", "301 E Main Street", "Dealership Hours", "2", [ "{\"address\":\"301 E Main Street\",\"city\":\"Branford\",\"state\":\"\",\"zip\":\"\"}", "41.291874", "-72.790192", null, false ] ]
+, [ 9, "DABBCFBE-67D1-4AA0-B492-0FEDA63C6407", 9, 1457698447, "930201", 1457698447, "930201", null, "Stony Creek Brewery", "5 Indian Neck Ave", "Open 24 Hours", "2", [ "{\"address\":\"5 Indian Neck Ave\",\"city\":\"Branford\",\"state\":\"\",\"zip\":\"\"}", "41.2738407", "-72.8113281", null, false ] ]
+, [ 10, "D791E646-FD5F-400D-A03C-0ABBC3B00FD7", 10, 1457698447, "930201", 1457698447, "930201", null, "BMW of Bridgeport", "43 North Ave", "Open 24 Hours", "2", [ "{\"address\":\"43 North Ave\",\"city\":\"Bridgeport\",\"state\":\"\",\"zip\":\"\"}", "41.2020685", "-73.1897466", null, false ] ]
+, [ 11, "7A2910A5-94EB-42BE-9FF1-097160F87345", 11, 1457698447, "930201", 1457698447, "930201", null, "Morton Government Center", "239 John Street", "Open 24 Hours", "2", [ "{\"address\":\"239 John Street\",\"city\":\"Bridgeport\",\"state\":\"\",\"zip\":\"\"}", "41.177081", "-73.191365", null, false ] ]
+, [ 12, "323A1D5D-454A-4763-947B-44BDFB5893CA", 12, 1457698447, "930201", 1457698447, "930201", null, "United Illuminating Co - City of Bridgeport", "45 Lyon Terrace", "9AM-5PM M-F", "2", [ "{\"address\":\"45 Lyon Terrace\",\"city\":\"Bridgeport\",\"state\":\"\",\"zip\":\"\"}", "41.1803348", "-73.1927599", null, false ] ]
+, [ 13, "0FD5C830-7649-4D40-844E-EF81181AB528", 13, 1457698447, "930201", 1457698447, "930201", null, "Crowley Nissan", "1451 Farmington Avenue", "9 AM-5 PM M-Sat", "2, DC", [ "{\"address\":\"1451 Farmington Avenue\",\"city\":\"Bristol\",\"state\":\"\",\"zip\":\"\"}", "41.6992932", "-72.8956037", null, false ] ]
+, [ 14, "D3CB493A-5593-47D5-B963-537CBBFCF6CE", 14, 1457698447, "930201", 1457698447, "930201", null, "Premier Chevrolet", "512 Providence Road", "Dealership Hours", "2", [ "{\"address\":\"512 Providence Road\",\"city\":\"Brooklyn\",\"state\":\"\",\"zip\":\"\"}", "41.79918", "-71.9068", null, false ] ]
+, [ 15, "8B727999-8AF0-4629-A99F-41C927DA4B3D", 15, 1457698447, "930201", 1457698447, "930201", null, "Burlington Library", "34 Library Lane, Burlington", "Open 24 Hours", "2", [ "{\"address\":\"34 Library Lane, Burlington\",\"city\":\"Burlington\",\"state\":\"\",\"zip\":\"\"}", "41.771441", "-72.967039", null, false ] ]
+, [ 16, "8BD87896-9C2A-4CA3-ACC4-B127A2E1B991", 16, 1457698447, "930201", 1457698447, "930201", null, "Canton Town Hall", "4 Market Street", "Open 24 Hours", "2", [ "{\"address\":\"4 Market Street\",\"city\":\"Canton\",\"state\":\"\",\"zip\":\"\"}", "41.810822", "-72.922571", null, false ] ]
+, [ 17, "AB80BD0A-A87C-44A9-AC69-BE98235DA2E5", 17, 1457698447, "930201", 1457698447, "930201", null, "CT Department of Motor Vehicles", "1365 Highland Avenue", "9 AM-5PM M-F", "2", [ "{\"address\":\"1365 Highland Avenue\",\"city\":\"Cheshire\",\"state\":\"\",\"zip\":\"\"}", "41.5374181", "-72.8935933", null, false ] ]
+, [ 18, "900749A3-7E56-4178-AFEC-CE5A7923B611", 18, 1457698447, "930201", 1457698447, "930201", null, "Town Hall of Coventry", "1712 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"1712 Main Street\",\"city\":\"Coventry\",\"state\":\"\",\"zip\":\"\"}", "41.781963", "-72.309203", null, false ] ]
+, [ 19, "15FC7605-B83C-4144-B208-64AB91DF97E5", 19, 1457698447, "930201", 1457698447, "930201", null, "Danbury Fair Mall", "7 Backus Ave ", "Open 24 Hours", "DC", [ "{\"address\":\"7 Backus Ave\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.38010788", "-73.47898865", null, false ] ]
+, [ 20, "69634952-9DC3-4974-9187-5AB6E1CE90B2", 20, 1457698447, "930201", 1457698447, "930201", null, "Danbury Parking Authority", "21 Delay Street", "5AM-2AM M-Sat, 8AM-2AM Sun", "2", [ "{\"address\":\"21 Delay Street\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.396042", "-73.451059", null, false ] ]
+, [ 21, "59D886DA-D811-4D3A-A60B-5717CA862592", 21, 1457698447, "930201", 1457698447, "930201", null, "Danbury Whole Foods ", "5C Sugar Hollow Road", "Open 24 Hours", "2", [ "{\"address\":\"5C Sugar Hollow Road\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.378259", "-73.474835", null, false ] ]
+, [ 22, "CFDDAFEF-7C68-471B-B604-3C93160F4F3E", 22, 1457698447, "930201", 1457698447, "930201", null, "DRS Consolidated Controls", "21 South Street", "Open 24 Hours", "2", [ "{\"address\":\"21 South Street\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.38704", "-73.4312", null, false ] ]
+, [ 23, "99E432EF-EDFA-4FE3-8258-47E5BACEDB3A", 23, 1457698447, "930201", 1457698447, "930201", null, "La Quinta Inn & Suites", "116 Newtown Road", "24 hours daily", "2", [ "{\"address\":\"116 Newtown Road\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.41681751", "-73.40630808", null, false ] ]
+, [ 24, "5C1E2EF4-A4D8-4268-9B04-0E6E76D79AEE", 24, 1457698447, "930201", 1457698447, "930201", null, "Western Connecticut State University", "180 White Street", "Open 24 Hours", "2", [ "{\"address\":\"180 White Street\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.399422", "-73.445563", null, false ] ]
+, [ 25, "1FEB1440-569A-4DF7-BE8F-BE3171B5ADBF", 25, 1457698447, "930201", 1457698447, "930201", null, "Western Connecticut State University", "43 Lake Avenue", "Open 24 Hours", "2", [ "{\"address\":\"43 Lake Avenue\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.389547", "-73.467467", null, false ] ]
+, [ 26, "55C9BA01-ED4E-466E-8E5B-D40EA81E77E1", 26, 1457698447, "930201", 1457698447, "930201", null, "Western Connecticut State University", "190 White Street", "Open 24 Hours", "2", [ "{\"address\":\"190 White Street\",\"city\":\"Danbury\",\"state\":\"\",\"zip\":\"\"}", "41.399095", "-73.44344", null, false ] ]
+, [ 27, "1E9B029A-914D-4143-B000-F54BA9B5782F", 27, 1457698447, "930201", 1457698447, "930201", null, "BMW of Darien-ChargePoint", "138-142 Ledge Rd", "Open 24 Hours", "2", [ "{\"address\":\"138-142 Ledge Rd\",\"city\":\"Darien\",\"state\":\"\",\"zip\":\"\"}", "41.072882", "-73.4764687", null, false ] ]
+, [ 28, "CE88DCB9-1A73-4070-AA7D-26060A5DBEE8", 28, 1457698447, "930201", 1457698447, "930201", null, "Darien Southbound Service Plaza", "1-95 S", "Open 24 Hours", "DC", [ "{\"address\":\"1-95 S\",\"city\":\"Darien\",\"state\":\"\",\"zip\":\"\"}", "41.068255", "-73.504797", null, false ] ]
+, [ 29, "13F305F1-F310-48F8-B7A2-4FF9527B0FD2", 29, 1457698447, "930201", 1457698447, "930201", null, "Learning Express", "25 Old Kings Hwy N", "9:30 AM-5:30 PM M-Sat, 11AM-5PM Sun", "2, DC", [ "{\"address\":\"25 Old Kings Hwy N\",\"city\":\"Darien\",\"state\":\"\",\"zip\":\"\"}", "41.078763", "-73.465493", null, false ] ]
+, [ 30, "5B7A5707-F230-48E1-ABC9-C30DE0EDF46F", 30, 1457698447, "930201", 1457698447, "930201", null, "Connecticut Welcome Center - Tesla ", "I-95 N, I-95 S", "24 hours daily", "Tesla", [ "{\"address\":\"I-95 N, I-95 S\",\"city\":\"Darien\",\"state\":\"\",\"zip\":\"\"}", "41.080085", "-73.461261", null, false ] ]
+, [ 31, "D6C38318-5699-433B-BB13-927E31E99D31", 31, 1457698447, "930201", 1457698447, "930201", null, "Deep River Library", "150 Main Street", "Open 24 Hours", "1, 2", [ "{\"address\":\"150 Main Street\",\"city\":\"Deep River\",\"state\":\"\",\"zip\":\"\"}", "41.3865745", "-72.4359069", null, false ] ]
+, [ 32, "F9244454-FE83-4306-A0C5-5473C8771808", 32, 1457698447, "930201", 1457698447, "930201", null, "Shagbark Lumber and Farm Supply", "Corner of Mt. Parnassus Rd. & Rt. 82", "Business Hours", "2", [ "{\"address\":\"Corner of Mt. Parnassus Rd. &amp; Rt. 82\",\"city\":\"East Haddam\",\"state\":\"\",\"zip\":\"\"}", "41.463278", "-72.442533", null, false ] ]
+, [ 33, "7313F122-1CC8-4855-A457-2A91D3EA119C", 33, 1457698447, "930201", 1457698447, "930201", null, "East Hampton Village Center", "87 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"87 Main Street\",\"city\":\"East Hampton\",\"state\":\"\",\"zip\":\"\"}", "41.574728", "-72.502089", null, false ] ]
+, [ 34, "612E90DD-F53E-4913-9572-585F80D4AE0A", 34, 1457698447, "930201", 1457698447, "930201", null, "East Hartford Public School", "734 Tolland Street", "Open 24 Hours", "2", [ "{\"address\":\"734 Tolland Street\",\"city\":\"East Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.78392", "-72.6047", null, false ] ]
+, [ 35, "8F25A7B6-2F22-47A5-A996-6E5B227E5A71", 35, 1457698447, "930201", 1457698447, "930201", null, "Goodwin College", "403 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"403 Main Street\",\"city\":\"East Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.749991", "-72.639357", null, false ] ]
+, [ 36, "324353E2-415D-4EB9-8EC0-AA5721BF06C7", 36, 1457698447, "930201", 1457698447, "930201", null, "Hoffman Ford Inc.", "600 Connecticut Blvd", "Dealership Hours", "2", [ "{\"address\":\"600 Connecticut Blvd\",\"city\":\"East Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.769701", "-72.657481", null, false ] ]
+, [ 37, "C219D9D6-B7B5-4031-9073-CDC4AB498ECD", 37, 1457698447, "930201", 1457698447, "930201", null, "Town of East Hartford", "740 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"740 Main Street\",\"city\":\"East Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.765921", "-72.645193", null, false ] ]
+, [ 38, "C0876470-9FC9-4FE9-8859-9A0CE018BE51", 38, 1457698447, "930201", 1457698447, "930201", null, "Town of East Haven", "250 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"250 Main Street\",\"city\":\"East Haven\",\"state\":\"\",\"zip\":\"\"}", "41.2777553", "-72.8716481", null, false ] ]
+, [ 39, "B594E71A-93E0-4F07-941F-C865EDDE8CC4", 39, 1457698447, "930201", 1457698447, "930201", null, "Green Farms", "1460 Post Road", "Open 24 Hours", "DC", [ "{\"address\":\"1460 Post Road\",\"city\":\"East Westport\",\"state\":\"\",\"zip\":\"\"}", "41.13921356", "-73.31217957", null, false ] ]
+, [ 40, "5CBC4B87-7226-48EC-9915-61F63AE89ED2", 40, 1457698447, "930201", 1457698447, "930201", null, "Easton Public Library", "691 Morehouse Road", "Open 24 Hours", "2", [ "{\"address\":\"691 Morehouse Road\",\"city\":\"Easton\",\"state\":\"\",\"zip\":\"\"}", "41.251966", "-73.297822", null, false ] ]
+, [ 41, "7300A195-DB3C-4FD0-9B54-33DB92EECF00", 41, 1457698447, "930201", 1457698447, "930201", null, "Asnuntuck Community College", "170 Elm Street", "Open 24 Hours", "2", [ "{\"address\":\"170 Elm Street\",\"city\":\"Enfield\",\"state\":\"\",\"zip\":\"\"}", "42.0000268", "-72.5697849", null, false ] ]
+, [ 42, "F2F0058E-0CD4-4186-A5C4-8A8467B0B422", 42, 1457698447, "930201", 1457698447, "930201", null, "Figaro Restaurant", "90 Elm Street", "Open 24 Hours", "2", [ "{\"address\":\"90 Elm Street\",\"city\":\"Enfield\",\"state\":\"\",\"zip\":\"\"}", "41.996918", "-72.5823813", null, false ] ]
+, [ 43, "8423672B-6604-4863-8C41-13CF70C547EA", 43, 1457698447, "930201", 1457698447, "930201", null, "Lia Nissan of Enfield", "10 Palomba Drive", "Dealership Hours", "2", [ "{\"address\":\"10 Palomba Drive\",\"city\":\"Enfield\",\"state\":\"\",\"zip\":\"\"}", "41.9979545", "-72.5742057", null, false ] ]
+, [ 44, "31AF105B-6DC0-4E85-981A-5B9697AB063F", 44, 1457698447, "930201", 1457698447, "930201", null, "Fairfield Mitsubishi", "421 Tunxis Hill Road", "Dealership Hours", "2", [ "{\"address\":\"421 Tunxis Hill Road\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.1768546", "-73.2306361", null, false ] ]
+, [ 45, "D146B936-08E3-4E4E-B11F-FEECB15A03D0", 45, 1457698447, "930201", 1457698447, "930201", null, "Fairfield Parks and Recreation Center", "75 Mill Plain Road", "Open 24 Hours", "2", [ "{\"address\":\"75 Mill Plain Road\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.142152", "-73.263962", null, false ] ]
+, [ 46, "DE95E3F8-4520-4880-83F3-40148D0B70C1", 46, 1457698447, "930201", 1457698447, "930201", null, "Fairfield Tennis Center", "210 Old Dam Road", "Open 24 Hours", "2", [ "{\"address\":\"210 Old Dam Road\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.1247387", "-73.2665157", null, false ] ]
+, [ 47, "42FAFA2F-57B6-46B1-B0FB-DA4D482B68F7", 47, 1457698447, "930201", 1457698447, "930201", null, "Fairfield Woods Library", "1147 Fairfield Woods Road", "Open 24 Hours", "2", [ "{\"address\":\"1147 Fairfield Woods Road\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.187855", "-73.250024", null, false ] ]
+, [ 48, "825D3BC4-5789-46A8-AEA5-3D170685CA9E", 48, 1457698447, "930201", 1457698447, "930201", null, "Paul Miller Nissan", "930 Kings Hwy E", "Dealership Hours", "2", [ "{\"address\":\"930 Kings Hwy E\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.16725", "-73.2336", null, false ] ]
+, [ 49, "1635C012-E456-4A38-A0B6-9857BCF14D2B", 49, 1457698447, "930201", 1457698447, "930201", null, "United Illuminating - Fairfield", "65 Reef Road", "Open 24 Hours", "2", [ "{\"address\":\"65 Reef Road\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.1406181", "-73.2571997", null, false ] ]
+, [ 50, "1FF39646-FEF0-430A-8908-446107535EDD", 50, 1457698447, "930201", 1457698447, "930201", null, "United Illuminating - Fairfield", "80 Mill Plain Road", "Open 24 Hours", "2", [ "{\"address\":\"80 Mill Plain Road\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.1422413", "-73.2640247", null, false ] ]
+, [ 51, "C4924221-A381-42E9-9D5C-583E91048F9B", 51, 1457698447, "930201", 1457698447, "930201", null, "Whole Foods Market", "350 Grasmere Avenue", "Customers Only", "2", [ "{\"address\":\"350 Grasmere Avenue\",\"city\":\"Fairfield\",\"state\":\"\",\"zip\":\"\"}", "41.157196", "-73.241898", null, false ] ]
+, [ 52, "33B5C15F-A814-437C-960C-427D25A221B5", 52, 1457698447, "930201", 1457698447, "930201", null, "Town of Glastonbury", "2155 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"2155 Main Street\",\"city\":\"Glastonbury\",\"state\":\"\",\"zip\":\"\"}", "41.7075381", "-72.6085729", null, false ] ]
+, [ 53, "69697435-3368-4E50-816E-ED6E80B3451B", 53, 1457698447, "930201", 1457698447, "930201", null, "Town of Glastonbury-on street parking", "2333 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"2333 Main Street\",\"city\":\"Glastonbury\",\"state\":\"\",\"zip\":\"\"}", "41.711942", "-72.608505", null, false ] ]
+, [ 54, "181A9912-11E6-4262-B1B0-A1023ABE884A", 54, 1457698447, "930201", 1457698447, "930201", null, "Gene Langan VW", "816 New London Turnpike", "Open 24 Hours", "2", [ "{\"address\":\"816 New London Turnpike\",\"city\":\"Glastonbury\",\"state\":\"\",\"zip\":\"\"}", "41.704415", "-72.593366", null, false ] ]
+, [ 55, "04C91EBA-2ED3-49C9-A513-1075E84F90EB", 55, 1457698447, "930201", 1457698447, "930201", null, "Delamar Greenwich Harbor - Tesla", "500 Steamboat Rd", "Open 24 Hours", "Tesla", [ "{\"address\":\"500 Steamboat Rd\",\"city\":\"Greenwich\",\"state\":\"\",\"zip\":\"\"}", "41.017798", "-73.623616", null, false ] ]
+, [ 56, "B4BC14B9-E5D6-41C1-9FB7-A9FBF5AE3689", 56, 1457698447, "930201", 1457698447, "930201", null, "Northbound & Southbound Travel Plaza", "2000-3000 Merritt Parkway", "Open 24 Hours", "Tesla", [ "{\"address\":\"2000-3000 Merritt Parkway\",\"city\":\"Greenwich\",\"state\":\"\",\"zip\":\"\"}", "41.040555", "-73.673445", null, false ] ]
+, [ 57, "EAEEADCB-768B-41BB-B015-8B47A9509E08", 57, 1457698447, "930201", 1457698447, "930201", null, "Rt 15- NB Greenwich Service Plaza", "3000 Merritt Parkway", "Open 24 Hours", "DC", [ "{\"address\":\"3000 Merritt Parkway\",\"city\":\"Greenwich\",\"state\":\"\",\"zip\":\"\"}", "41.041098", "-73.672417", null, false ] ]
+, [ 58, "DAF514A4-E71E-485D-AE65-B594507A2463", 58, 1457698447, "930201", 1457698447, "930201", null, "Karl Chevrolet", "1330 East Putnam Avenue", "Dealership Hours", "2", [ "{\"address\":\"1330 East Putnam Avenue\",\"city\":\"Greenwich\",\"state\":\"\",\"zip\":\"\"}", "41.043283", "-73.573851", null, false ] ]
+, [ 59, "392B8AD8-5EB3-45D6-8AEC-E452DFC974CB", 59, 1457698447, "930201", 1457698447, "930201", null, "644 West Putnam", "644 West Putnam Avenue", "Open 24 Hours", "2", [ "{\"address\":\"644 West Putnam Avenue\",\"city\":\"Greenwich\",\"state\":\"\",\"zip\":\"\"}", "41.016928", "-73.6476069", null, false ] ]
+, [ 60, "5C892993-F5F0-43C9-8B10-96FD8B07B93F", 60, 1457698447, "930201", 1457698447, "930201", null, "Girard Nissan", "425 Gold Star Hwy", "Dealership Hours", "2", [ "{\"address\":\"425 Gold Star Hwy\",\"city\":\"Groton\",\"state\":\"\",\"zip\":\"\"}", "41.3713958", "-72.0565033", null, false ] ]
+, [ 61, "D1841C41-8A68-42BC-9FD3-120A91DCE874", 61, 1457698447, "930201", 1457698447, "930201", null, "Mystic Marriott Hotel and Spa", "625 North Rd", "Open 24 Hours", "1, 2", [ "{\"address\":\"625 North Rd\",\"city\":\"Groton\",\"state\":\"\",\"zip\":\"\"}", "41.3649722", "-72.0251953", null, false ] ]
+, [ 62, "763D67C3-CAEC-4541-BF2D-4FF3937D112A", 62, 1457698447, "930201", 1457698447, "930201", null, "PFIZER GROTON", "445 Eastern Point Road-Building 290", "Open 24 Hours", "2", [ "{\"address\":\"445 Eastern Point Road-Building 290\",\"city\":\"Groton\",\"state\":\"\",\"zip\":\"\"}", "41.3356849", "-72.0729966", null, false ] ]
+, [ 63, "DF63D44E-C51B-482C-B9F0-256DA31B11A1", 63, 1457698447, "930201", 1457698447, "930201", null, "Bishop's Orchards", "1355 Boston Post Road", "Open 24 Hours", "2", [ "{\"address\":\"1355 Boston Post Road\",\"city\":\"Guilford\",\"state\":\"\",\"zip\":\"\"}", "41.289671", "-72.695214", null, false ] ]
+, [ 64, "B747FEEB-76BE-4C7D-96D0-1C8D04A9C311", 64, 1457698447, "930201", 1457698447, "930201", null, "Guilford Town Hall", "31 Park Street", "Open 24 Hours", "2", [ "{\"address\":\"31 Park Street\",\"city\":\"Guilford\",\"state\":\"\",\"zip\":\"\"}", "41.2829747", "-72.6806692", null, false ] ]
+, [ 65, "2623EAEC-AA28-45A5-82BF-5DFD425974FE", 65, 1457698447, "930201", 1457698447, "930201", null, "Capital Regional Development Association (CRDA)  ", "Front Street North, 105 Columbus Blvd", "Daily: 6AM-Midnight", "2", [ "{\"address\":\"Front Street North, 105 Columbus Blvd\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.762829", "-72.670264", null, false ] ]
+, [ 66, "EAF0AC8F-18E0-40B2-939F-34BF3E1B7AB4", 66, 1457698447, "930201", 1457698447, "930201", null, "CityPlace Garage", "185 Asylum Street", "Garage Hours", "2", [ "{\"address\":\"185 Asylum Street\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7669", "-72.6762", null, false ] ]
+, [ 67, "194CAEA4-0422-4F4E-807C-2790CA3DF121", 67, 1457698447, "930201", 1457698447, "930201", null, "Connecticut Department of Energy & Environmental Protection", "79 Elm Street", "Open 24 Hours", "2", [ "{\"address\":\"79 Elm Street\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.763449", "-72.678557", null, false ] ]
+, [ 68, "5CE5C156-2002-4EC7-BF36-CE84BD1144DE", 68, 1457698447, "930201", 1457698447, "930201", null, "Connecticut Legislative Office Building", "300 Capitol Ave", "Garage Hours", "2", [ "{\"address\":\"300 Capitol Ave\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7634529", "-72.6854594", null, false ] ]
+, [ 69, "77A5D5A1-BC04-4CA5-9731-DC3F52225137", 69, 1457698447, "930201", 1457698447, "930201", null, "Convention Center", "100 Columbus Blvd", "Open 24 Hours", "2", [ "{\"address\":\"100 Columbus Blvd\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.76378", "-72.6697", null, false ] ]
+, [ 70, "BC613FB8-E666-48C7-8585-C41F29620F30", 70, 1457698447, "930201", 1457698447, "930201", null, "Connecticut Science Center", "250 Columbus Blvd", "Daily: 6Am-3AM", "2", [ "{\"address\":\"250 Columbus Blvd\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.764599", "-72.669526", null, false ] ]
+, [ 71, "2651BEA4-319C-4728-973A-BF21A282BC32", 71, 1457698447, "930201", 1457698447, "930201", null, "Greater Hartford Transit District - Spruce Street Lot", "1 Union Place", "Open 24 Hours", "1, 2", [ "{\"address\":\"1 Union Place\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7686629", "-72.6813764", null, false ] ]
+, [ 72, "9724FF20-4F32-4B67-A1C0-E53AC68F80D7", 72, 1457698447, "930201", 1457698447, "930201", null, "Harte Nissan", "165 West Service Road", "Dealership Hours", "2, DC", [ "{\"address\":\"165 West Service Road\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7913051", "-72.6566434", null, false ] ]
+, [ 73, "B576C144-BD41-40CE-88CB-5A2C848E346C", 73, 1457698447, "930201", 1457698447, "930201", null, "Hartford Mitsubishi", "77 Leibert Road", "Dealership Hours", "2", [ "{\"address\":\"77 Leibert Road\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.78421", "-72.6577", null, false ] ]
+, [ 74, "C3EDE8D2-9A0B-402D-9ED4-B2EE3E58EA36", 74, 1457698447, "930201", 1457698447, "930201", null, "Propark America", "777 Main Street", "Garage Hours", "1, 2", [ "{\"address\":\"777 Main Street\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7656639", "-72.6734371", null, false ] ]
+, [ 75, "745C07EC-A913-4D19-8882-C2F069FB391C", 75, 1457698447, "930201", 1457698447, "930201", null, "Propark America", "77 Old Bank Lane", "Garage Hours", "2, DC", [ "{\"address\":\"77 Old Bank Lane\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7667112", "-72.674007", null, false ] ]
+, [ 76, "EA61F7A9-C2E4-4B8D-947D-53F82F8DEC88", 76, 1457698447, "930201", 1457698447, "930201", null, "Propark America", "100 Asylum Street", "Garage Hours", "2", [ "{\"address\":\"100 Asylum Street\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7669796", "-72.6749203", null, false ] ]
+, [ 77, "A4113406-B047-487B-9B6A-35C68E67BF9A", 77, 1457698447, "930201", 1457698447, "930201", null, "Saint Francis Hospital", "114 Woodland Street", "Open 24 Hours", "2", [ "{\"address\":\"114 Woodland Street\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.77507", "-72.6994", null, false ] ]
+, [ 78, "D92F12DE-5D8E-46CA-9B88-19512FB2E81B", 78, 1457698447, "930201", 1457698447, "930201", null, "State House Square", "10-90 State House Sq", "Open 24 Hours", "2", [ "{\"address\":\"10-90 State House Sq\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.766", "-72.6716", null, false ] ]
+, [ 79, "E2420418-D0C3-4030-995F-37E549BA2BF1", 79, 1457698447, "930201", 1457698447, "930201", null, "Trinity College", "18-60 Crescent Street", "Open 24 Hours", "2", [ "{\"address\":\"18-60 Crescent Street\",\"city\":\"Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.745582", "-72.689438", null, false ] ]
+, [ 80, "B14A952D-F2E1-4388-B22E-D10D9C96F866", 80, 1457698447, "930201", 1457698447, "930201", null, "Town of Hebron", "15 Gilead Street", "Open 24 Hours", "2", [ "{\"address\":\"15 Gilead Street\",\"city\":\"Hebron\",\"state\":\"\",\"zip\":\"\"}", "41.658572", "-72.366742", null, false ] ]
+, [ 81, "58FAE982-3F8B-4D60-A98C-16344040DF99", 81, 1457698447, "930201", 1457698447, "930201", null, "Crew Design, Inc.", "16 Maple Street Extension, Kent", "Open 24 Hours", "2", [ "{\"address\":\"16 Maple Street Extension, Kent\",\"city\":\"Kent\",\"state\":\"\",\"zip\":\"\"}", "41.721958", "-73.473401", null, false ] ]
+, [ 82, "AC281F97-7E46-4CB7-9688-AC67D7504EFD", 82, 1457698447, "930201", 1457698447, "930201", null, "Kent Town Green", "14-18 Kent Green Blvd", "Open 24 Hours", "2", [ "{\"address\":\"14-18 Kent Green Blvd\",\"city\":\"Kent\",\"state\":\"\",\"zip\":\"\"}", "41.727419", "-73.47251", null, false ] ]
+, [ 83, "48C763B4-908D-47C5-B0DB-3BC0D39AF480", 83, 1457698447, "930201", 1457698447, "930201", null, "Killingly Town Hall", "172 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"172 Main Street\",\"city\":\"Killingly\",\"state\":\"\",\"zip\":\"\"}", "41.80577", "-71.882323", null, false ] ]
+, [ 84, "173E7A20-6D9F-4BB2-94EC-C4C75A9B81F4", 84, 1457698447, "930201", 1457698447, "930201", null, "North Madison Shopping Center/BeFree Solar", "492 Old Toll Road", "Open 24 Hours", "1, 2", [ "{\"address\":\"492 Old Toll Road\",\"city\":\"Madison\",\"state\":\"\",\"zip\":\"\"}", "41.36007495", "-72.63656297", null, false ] ]
+, [ 85, "D3469EBB-7897-4F2A-9E9D-1F67AEE01D24", 85, 1457698447, "930201", 1457698447, "930201", null, "Town of Madison", "761 Boston Post Road", "Open 24 Hours", "2", [ "{\"address\":\"761 Boston Post Road\",\"city\":\"Madison\",\"state\":\"\",\"zip\":\"\"}", "41.280284", "-72.595184", null, false ] ]
+, [ 86, "908A7DB7-BD7B-4CD5-BECF-54EF70020067", 86, 1457698447, "930201", 1457698447, "930201", null, "Carter Chevrolet", "1229 Main Street", "Dealership Hours", "2", [ "{\"address\":\"1229 Main Street\",\"city\":\"Manchester\",\"state\":\"\",\"zip\":\"\"}", "41.7648798", "-72.52027", null, false ] ]
+, [ 87, "ADE6F1F5-06CD-424B-BFDE-FC366F4CBC2D", 87, 1457698447, "930201", 1457698447, "930201", null, "De Cormier Nissan", "30 Tolland Tpke", "Dealership Hours", "2, DC", [ "{\"address\":\"30 Tolland Tpke\",\"city\":\"Manchester\",\"state\":\"\",\"zip\":\"\"}", "41.813743", "-72.507773", null, false ] ]
+, [ 88, "36155B30-A99C-447D-93E9-7147E79E41BA", 88, 1457698447, "930201", 1457698447, "930201", null, "Highland Park Market", "317 Highland Street", "Dealership business hours", "2", [ "{\"address\":\"317 Highland Street\",\"city\":\"Manchester\",\"state\":\"\",\"zip\":\"\"}", "41.7660072", "-72.4902715", null, false ] ]
+, [ 89, "1AD42B1D-AEF6-4661-BB46-33ED003251D6", 89, 1457698447, "930201", 1457698447, "930201", null, "Manchester Honda", "24 Adams Street", "Dealership Hours", "2", [ "{\"address\":\"24 Adams Street\",\"city\":\"Manchester\",\"state\":\"\",\"zip\":\"\"}", "41.795808", "-72.55138", null, false ] ]
+, [ 90, "F61F0CFD-3A83-4BB7-AB09-201A7C340A68", 90, 1457698447, "930201", 1457698447, "930201", null, "Mansfield Public Library", "54 Warrenville Road", "Open 24 Hours", "2", [ "{\"address\":\"54 Warrenville Road\",\"city\":\"Mansfield\",\"state\":\"\",\"zip\":\"\"}", "41.768396", "-72.195701", null, false ] ]
+, [ 91, "84B4E556-CE81-45C6-9233-B8334534605F", 91, 1457698447, "930201", 1457698447, "930201", null, "Town of Mansfield", "10 S Eagleville Road", "Open 24 Hours", "2", [ "{\"address\":\"10 S Eagleville Road\",\"city\":\"Mansfield\",\"state\":\"\",\"zip\":\"\"}", "41.7990473", "-72.2446293", null, false ] ]
+, [ 92, "DBCECA2F-8BA3-49E2-9E02-D30E58AE0895", 92, 1457698447, "930201", 1457698447, "930201", null, "Foxwoods Casino & Resort", "350 Trolley Line Blvd", "Open 24 Hours", "2", [ "{\"address\":\"350 Trolley Line Blvd\",\"city\":\"Mashantucket\",\"state\":\"\",\"zip\":\"\"}", "41.4733521", "-71.9600027", null, false ] ]
+, [ 93, "A6CA3FBF-6872-4431-B60F-56E24FB246E4", 93, 1457698447, "930201", 1457698447, "930201", null, "Foxwoods Resort & Casino", "101 Trolley  Line Blvd", "Open 24 Hours", "2", [ "{\"address\":\"101 Trolley Line Blvd\",\"city\":\"Mashantucket\",\"state\":\"\",\"zip\":\"\"}", "41.4699817", "-71.9523342", null, false ] ]
+, [ 94, "D247E948-71CD-44A6-B65E-9C7E8F66E67D", 94, 1457698447, "930201", 1457698447, "930201", null, "Butler Street Parking Lot", "30 Butler Street", "Open 24 Hours", "2", [ "{\"address\":\"30 Butler Street\",\"city\":\"Meriden\",\"state\":\"\",\"zip\":\"\"}", "41.53697", "-72.805988", null, false ] ]
+, [ 95, "5AA33242-388E-4BC4-80F8-7B3DFB3504F4", 95, 1457698447, "930201", 1457698447, "930201", null, "Meriden City Hall/Meriden Library", "105 Miller Street", "Open 24 Hours", "2", [ "{\"address\":\"105 Miller Street\",\"city\":\"Meriden\",\"state\":\"\",\"zip\":\"\"}", "41.537218", "-72.796702", null, false ] ]
+, [ 96, "5DFBFC1B-5933-401D-8421-046D9DF1E44C", 96, 1457698447, "930201", 1457698447, "930201", null, "Reserve Night Club", "16 Colony Street", "Open 24 Hours", "2", [ "{\"address\":\"16 Colony Street\",\"city\":\"Meriden\",\"state\":\"\",\"zip\":\"\"}", "41.538678", "-72.802371", null, false ] ]
+, [ 97, "10899B29-48E5-482D-B856-396AABF6E707", 97, 1457698447, "930201", 1457698447, "930201", null, "Yale Acres Community Center", "228 Wall Street", "Open 24 Hours", "2", [ "{\"address\":\"228 Wall Street\",\"city\":\"Meriden\",\"state\":\"\",\"zip\":\"\"}", "41.538777", "-72.782625", null, false ] ]
+, [ 98, "56B5B12B-4472-4EE5-91C9-6AAD16731DBB", 98, 1457698447, "930201", 1457698447, "930201", null, "County Line Buick-Nissan", "2191 Straits Tpke", "Dealership Hours", "2, DC", [ "{\"address\":\"2191 Straits Tpke\",\"city\":\"Middlebury\",\"state\":\"\",\"zip\":\"\"}", "41.568466", "-73.099109", null, false ] ]
+, [ 99, "1478A9ED-C5E1-4CDB-AA0A-3B78511F49C4", 99, 1457698447, "930201", 1457698447, "930201", null, "Middletown Nissan", "1153 Newfield Street", "Dealership Hours", "2, DC", [ "{\"address\":\"1153 Newfield Street\",\"city\":\"Middletown\",\"state\":\"\",\"zip\":\"\"}", "41.5903224", "-72.6757242", null, false ] ]
+, [ 100, "9DBE6697-8ECC-482B-B7C4-F1116AFD93E5", 100, 1457698447, "930201", 1457698447, "930201", null, "Wesleyan University", "161 Cross Street", "Open 24 Hours", "2", [ "{\"address\":\"161 Cross Street\",\"city\":\"Middletown\",\"state\":\"\",\"zip\":\"\"}", "41.550883", "-72.662214", null, false ] ]
+, [ 101, "10F924A7-0760-4C79-818A-60AFD5BD261C", 101, 1457698447, "930201", 1457698447, "930201", null, "Hampton Inn", "129 Plains Road", "Open 24 Hours-Guests Only", "DC", [ "{\"address\":\"129 Plains Road\",\"city\":\"Milford\",\"state\":\"\",\"zip\":\"\"}", "41.2231941", "-73.0770373", null, false ] ]
+, [ 102, "2B4A6C31-9B3D-4F70-AB68-3DBBD9F11E5F", 102, 1457698447, "930201", 1457698447, "930201", null, "Milford Public Library", "57 New Haven Avenue", "Open 24 Hours", "2", [ "{\"address\":\"57 New Haven Avenue\",\"city\":\"Milford\",\"state\":\"\",\"zip\":\"\"}", "41.2225623", "-73.0546839", null, false ] ]
+, [ 103, "91A1C2EA-FC0E-4ECB-94E7-3A4E5854D890", 103, 1457698447, "930201", 1457698447, "930201", null, "Milford Southbound & Northbound Service Plaza", "I-95 N, I-95 S", "Open 24 Hours", "Tesla", [ "{\"address\":\"I-95 N, I-95 S\",\"city\":\"Milford\",\"state\":\"\",\"zip\":\"\"}", "41.24718", "-73.009992", null, false ] ]
+, [ 104, "E74F0FFE-4794-4E71-BD33-23D7A5D5D53B", 104, 1457698447, "930201", 1457698447, "930201", null, "Napoli Nissan", "688 Bridgeport Avenue", "Dealership Hours", "2", [ "{\"address\":\"688 Bridgeport Avenue\",\"city\":\"Milford\",\"state\":\"\",\"zip\":\"\"}", "41.2096984", "-73.083616", null, false ] ]
+, [ 105, "EB61B457-A15E-4258-8336-95D936293C76", 105, 1457698447, "930201", 1457698447, "930201", null, "Mystic Aquarium", "55 Coogan Blvd.", "Open 24 Hours", "2, DC", [ "{\"address\":\"55 Coogan Blvd.\",\"city\":\"Mystic\",\"state\":\"\",\"zip\":\"\"}", "41.373266", "-71.953159", null, false ] ]
+, [ 106, "39B66710-FCE5-4AC6-8442-EEC719D84AF6", 106, 1457698447, "930201", 1457698447, "930201", null, "Precision Motors of Mystic", "2400 Gold Star Highway", "Open 24 Hours", "2", [ "{\"address\":\"2400 Gold Star Highway\",\"city\":\"Mystic\",\"state\":\"\",\"zip\":\"\"}", "41.390465", "-71.988657", null, false ] ]
+, [ 107, "6585F550-EA12-4261-BCD7-25E3CCF4AE89", 107, 1457698447, "930201", 1457698447, "930201", null, "Blogoslawski Parking Garage", "10 Franklin Square", "Open 24 Hours", "2", [ "{\"address\":\"10 Franklin Square\",\"city\":\"New Britain\",\"state\":\"\",\"zip\":\"\"}", "41.6643566", "-72.7788286", null, false ] ]
+, [ 108, "AAB98EC4-5405-429E-A499-7E1E065C91A3", 108, 1457698447, "930201", 1457698447, "930201", null, "Central Connecticut State University-Student Center", "105 Ella Grasso Blvd.", "Open 24 Hours", "2", [ "{\"address\":\"105 Ella Grasso Blvd.\",\"city\":\"New Britain\",\"state\":\"\",\"zip\":\"\"}", "41.693068", "-72.767971", null, false ] ]
+, [ 109, "60F353BF-6408-43C3-8CB7-6AC397B16CE4", 109, 1457698447, "930201", 1457698447, "930201", null, "CCSU Student Center", "195 Ella Grasso Blvd", "Open 24 Hours", "DC", [ "{\"address\":\"195 Ella Grasso Blvd\",\"city\":\"New Britain\",\"state\":\"\",\"zip\":\"\"}", "41.693285", "-72.768397", null, false ] ]
+, [ 110, "C1E9A7D3-AD6B-43E6-B008-44FB3769525D", 110, 1457698447, "930201", 1457698447, "930201", null, "Schaller Mitsubishi", "25 Veterans Drive", "9 AM-5 PM M-Sat", "2", [ "{\"address\":\"25 Veterans Drive\",\"city\":\"New Britain\",\"state\":\"\",\"zip\":\"\"}", "41.649365", "-72.770648", null, false ] ]
+, [ 111, "0ABA61C3-BA67-461E-98DA-F1042337C906", 111, 1457698447, "930201", 1457698447, "930201", null, "Surface Parking Lot", "121 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"121 Main Street\",\"city\":\"New Britain\",\"state\":\"\",\"zip\":\"\"}", "41.666233", "-72.781161", null, false ] ]
+, [ 112, "955B335B-E6C3-47D1-AF2D-AC89AFAE4C34", 112, 1457698447, "930201", 1457698447, "930201", null, "Szczesny Parking Garage", "31 Bank Street", "Open 24 Hours", "2", [ "{\"address\":\"31 Bank Street\",\"city\":\"New Britain\",\"state\":\"\",\"zip\":\"\"}", "41.666879", "-72.78037", null, false ] ]
+, [ 113, "58F37A47-FEA6-426B-80B3-0380EBCB5604", 113, 1457698447, "930201", 1457698447, "930201", null, "Karl Chevrolet", "261 Elm Street", "Open 24 Hours", "2", [ "{\"address\":\"261 Elm Street\",\"city\":\"New Canaan\",\"state\":\"\",\"zip\":\"\"}", "41.14586", "-73.4991", null, false ] ]
+, [ 114, "39AC004C-B6C2-42A5-A6E8-5BFA2313A481", 114, 1457698447, "930201", 1457698447, "930201", null, "Public Parking Lot", "Morse Street", "Open 24 Hours", "2", [ "{\"address\":\"Morse Street\",\"city\":\"New Canaan\",\"state\":\"\",\"zip\":\"\"}", "41.1464", "-73.4924", null, false ] ]
+, [ 115, "F418B591-EB64-44CC-A028-E797E72E657B", 115, 1457698447, "930201", 1457698447, "930201", null, "City of New Haven", "102 N. Frontage Road (Orchard Sherman Parking Lot)", "Open 24 Hours", "2", [ "{\"address\":\"102 N. Frontage Road (Orchard Sherman Parking Lot)\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.312201", "-72.921453", null, false ] ]
+, [ 116, "F095A2C4-CCB9-4026-9A0B-07AD85870000", 116, 1457698447, "930201", 1457698447, "930201", null, "Propark America - Omni Hotel Chapel Square Garage", "155 Temple Street", "Open 24 Hours", "1, 2, Tesla", [ "{\"address\":\"155 Temple Street\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.3058626", "-72.9275359", null, false ] ]
+, [ 117, "72D4FD1B-471F-4B2A-AB61-BC2B831C0F06", 117, 1457698447, "930201", 1457698447, "930201", null, "Southern Connecticut University", "34 Wintergreen Ave", "Open 24/7 is a pay lot ", "2", [ "{\"address\":\"34 Wintergreen Ave\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.3333254", "-72.9502064", null, false ] ]
+, [ 118, "5C449587-5CDB-4CC5-99F7-226B5EE27F85", 118, 1457698447, "930201", 1457698447, "930201", null, "State Street Parking Garage", "360 State Street", "Garage Hours", "2", [ "{\"address\":\"360 State Street\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.30501", "-72.9227", null, false ] ]
+, [ 119, "E1F39604-C469-4DDA-99E3-2D494DC188AC", 119, 1457698447, "930201", 1457698447, "930201", null, "United Illuminating - City of New Haven Union Station Garage", "50 Union Avenue", "Open 24 Hours", "2", [ "{\"address\":\"50 Union Avenue\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.297509", "-72.926602", null, false ] ]
+, [ 120, "4E0FADBB-B426-417E-A7E3-292FDCBBC181", 120, 1457698447, "930201", 1457698447, "930201", null, "New Haven Parking Authority (Union Street)", "40 Union Street (Located on first floor of garage)", "Open 24/7 is a pay lot ", "2", [ "{\"address\":\"40 Union Street (Located on first floor of garage)\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.29803", "-72.926668", null, false ] ]
+, [ 121, "E17A2A6E-8913-4C91-9D42-5ACA69772F6E", 121, 1457698447, "930201", 1457698447, "930201", null, "Air Rights Garage (New Haven Parking Authority)", "60 York Street (Located on level 3 of garage)", "Open 24/7 is a pay lot ", "2", [ "{\"address\":\"60 York Street (Located on level 3 of garage)\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.305202", "-72.934014", null, false ] ]
+, [ 122, "7FEEE426-5402-464D-988C-390890D34876", 122, 1457698447, "930201", 1457698447, "930201", null, "New Haven Parking Authority (Temple Street)", "1 Temple Street (Located on level 4 of garage)", "Open 24/7 is a pay lot ", "2", [ "{\"address\":\"1 Temple Street (Located on level 4 of garage)\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.303605", "-72.929722", null, false ] ]
+, [ 123, "41887827-CB71-4CB1-91EF-1F20DED51DB2", 123, 1457698447, "930201", 1457698447, "930201", null, "Whalley Blake Parking Lot", "919 Whalley Avenue", "Open 24 Hours", "2", [ "{\"address\":\"919 Whalley Avenue\",\"city\":\"New Haven\",\"state\":\"\",\"zip\":\"\"}", "41.32696", "-72.959996", null, false ] ]
+, [ 124, "44A28745-C337-4E5A-B472-0C542253B245", 124, 1457698447, "930201", 1457698447, "930201", null, "Carriage House of New London", "488 Coman Street", "8 AM-7 PM M-Thur, 8 AM-5 PM F-Sun", "2", [ "{\"address\":\"488 Coman Street\",\"city\":\"New London\",\"state\":\"\",\"zip\":\"\"}", "41.362333", "-72.117344", null, false ] ]
+, [ 125, "E438C1A7-2E41-4204-9FEC-5B0B44CE117C", 125, 1457698447, "930201", 1457698447, "930201", null, "Propark America - City of New London", "161 Water Street (Located outside of garage entrance from Water St )", "Open 24 Hours", "1, 2", [ "{\"address\":\"161 Water Street (Located outside of garage entrance from Water St )\",\"city\":\"New London\",\"state\":\"\",\"zip\":\"\"}", "41.3566648", "-72.0945957", null, false ] ]
+, [ 126, "5DE74FF5-7629-4120-83E6-C73440BF610E", 126, 1457698447, "930201", 1457698447, "930201", null, "Town of New Milford-Library Kiosk", "24 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"24 Main Street\",\"city\":\"New Milford\",\"state\":\"\",\"zip\":\"\"}", "41.5785572", "-73.41116", null, false ] ]
+, [ 127, "D14C9B6D-DC22-4902-A3AB-B65537039A56", 127, 1457698447, "930201", 1457698447, "930201", null, "Newington Electric", "72 Pane Road", "Open 24 Hours", "2", [ "{\"address\":\"72 Pane Road\",\"city\":\"Newington\",\"state\":\"\",\"zip\":\"\"}", "41.654779", "-72.729349", null, false ] ]
+, [ 128, "ED68D676-DF49-4EDA-9647-614326EB6421", 128, 1457698447, "930201", 1457698447, "930201", null, "Town of Newington-Market Center", "90 Market Square", "Open 24 Hours", "2", [ "{\"address\":\"90 Market Square\",\"city\":\"Newington\",\"state\":\"\",\"zip\":\"\"}", "41.6972", "-72.7214", null, false ] ]
+, [ 129, "597871DC-5DDD-4460-AE55-EB8F13E1EE1C", 129, 1457698447, "930201", 1457698447, "930201", null, "Town Center Municipal Parking Lot", "83 Market Square", "Open 24 Hours", "2", [ "{\"address\":\"83 Market Square\",\"city\":\"Newington\",\"state\":\"\",\"zip\":\"\"}", "41.696446", "-72.721392", null, false ] ]
+, [ 130, "54F346AE-5E81-4D8D-A6A2-F504E3C60064", 130, 1457698447, "930201", 1457698447, "930201", null, "Crest Ford", "218 Flanders Road ", "Open 24 Hours", "2", [ "{\"address\":\"218 Flanders Road\",\"city\":\"Niantic\",\"state\":\"\",\"zip\":\"\"}", "41.354043", "-72.211435", null, false ] ]
+, [ 131, "AEE793B5-5BE9-4D09-B8A3-0FFD4DA3F920", 131, 1457698447, "930201", 1457698447, "930201", null, "Executive Nissan", "900 Universal Drive N", "Dealership Hours", "2, DC", [ "{\"address\":\"900 Universal Drive N\",\"city\":\"North Haven\",\"state\":\"\",\"zip\":\"\"}", "41.360892", "-72.870997", null, false ] ]
+, [ 132, "8C5211AA-D681-4763-8B46-29FD0D933F09", 132, 1457698447, "930201", 1457698447, "930201", null, "Montesi VW", "444 State Street", "Dealership Hours", "2", [ "{\"address\":\"444 State Street\",\"city\":\"North Haven\",\"state\":\"\",\"zip\":\"\"}", "41.3630236", "-72.8878557", null, false ] ]
+, [ 133, "6710076A-6FB7-4262-893A-5DE2BE731B80", 133, 1457698447, "930201", 1457698447, "930201", null, "Van Wilgen's Garden Center", "51 Valley Road", "9AM-5PM M-F", "2", [ "{\"address\":\"51 Valley Road\",\"city\":\"North Branford\",\"state\":\"\",\"zip\":\"\"}", "41.30733", "-72.766105", null, false ] ]
+, [ 134, "2D72E78A-FBE4-4BB1-B509-82B94CEDE8C8", 134, 1457698447, "930201", 1457698447, "930201", null, "Gates Nissan", "143 Boston Post Road", "Dealership Hours", "2", [ "{\"address\":\"143 Boston Post Road\",\"city\":\"North Windham\",\"state\":\"\",\"zip\":\"\"}", "41.7283586", "-72.1878358", null, false ] ]
+, [ 135, "86897CB0-8AAC-4440-B041-3BB5578A1EE2", 135, 1457698447, "930201", 1457698447, "930201", null, "Aitoro Appliance Co.", "401 Westport Avenue at Strawberry Hill Avenue", "Business Hours", "2", [ "{\"address\":\"401 Westport Avenue at Strawberry Hill Avenue\",\"city\":\"Norwalk\",\"state\":\"\",\"zip\":\"\"}", "41.126616", "-73.390279", null, false ] ]
+, [ 136, "C56C376F-8F40-4E3C-8DFE-796E98B2236A", 136, 1457698447, "930201", 1457698447, "930201", null, "General Electric Capital", "901 Main Avenue", "Open 24 Hours", "2", [ "{\"address\":\"901 Main Avenue\",\"city\":\"Norwalk\",\"state\":\"\",\"zip\":\"\"}", "41.144988", "-73.428669", null, false ] ]
+, [ 137, "2561B354-DBA4-4090-AECA-1EC95A525836", 137, 1457698447, "930201", 1457698447, "930201", null, "East Norwalk Library", "51 Van Zant Street", "Open 24 Hours", "2", [ "{\"address\":\"51 Van Zant Street\",\"city\":\"Norwalk\",\"state\":\"\",\"zip\":\"\"}", "41.101888", "-73.405875", null, false ] ]
+, [ 138, "AEA5B149-959F-4569-9A98-50644CA9D616", 138, 1457698447, "930201", 1457698447, "930201", null, "Yankee Doodle Garage", "10 Burnell Blvd", "Lot Hours", "1, 2", [ "{\"address\":\"10 Burnell Blvd\",\"city\":\"Norwalk\",\"state\":\"\",\"zip\":\"\"}", "41.11803055", "-73.41493225", null, false ] ]
+, [ 139, "927E64FC-8FD9-488B-BBB8-1DE5E22C3150", 139, 1457698447, "930201", 1457698447, "930201", null, "Norwalk Community College", "188 Richards Avenue", "M-F 7AM-10PM, Sat Limited Hours ", "2", [ "{\"address\":\"188 Richards Avenue\",\"city\":\"Norwalk\",\"state\":\"\",\"zip\":\"\"}", "41.102614", "-73.450294", null, false ] ]
+, [ 140, "36C5C8A6-6AEF-45E2-9CD4-32BC8358246C", 140, 1457698447, "930201", 1457698447, "930201", null, "Spinnaker Real Estate Partners", "20 North Water Street", "Open 24 Hours", "2", [ "{\"address\":\"20 North Water Street\",\"city\":\"Norwalk\",\"state\":\"\",\"zip\":\"\"}", "41.099673", "-73.416602", null, false ] ]
+, [ 141, "0F6F486E-56EE-4728-87A5-76F73B99FE81", 141, 1457698447, "930201", 1457698447, "930201", null, "Nissan of Norwich", "691 W Thames St", "Dealership Hours", "2", [ "{\"address\":\"691 W Thames St\",\"city\":\"Norwich\",\"state\":\"\",\"zip\":\"\"}", "41.501415", "-72.0951712", null, false ] ]
+, [ 142, "A9DEF27B-2869-4D4B-8698-207183A418C1", 142, 1457698447, "930201", 1457698447, "930201", null, "Norwich Public Utilities", "157 N Main Street (Adjacent to Customer Service Building)", "Open 24 Hours", "2", [ "{\"address\":\"157 N Main Street (Adjacent to Customer Service Building)\",\"city\":\"Norwich\",\"state\":\"\",\"zip\":\"\"}", "41.527565", "-72.064059", null, false ] ]
+, [ 143, "B594BBD5-1975-4AC2-9EA8-CB6C09C5B750", 143, 1457698447, "930201", 1457698447, "930201", null, "Big Y ", "28 Spencer Plain Road", "Open 24 Hours", "2", [ "{\"address\":\"28 Spencer Plain Road\",\"city\":\"Old Saybrook\",\"state\":\"\",\"zip\":\"\"}", "41.28808", "-72.417843", null, false ] ]
+, [ 144, "46E10AAA-85F5-4EAE-8725-313133384F54", 144, 1457698447, "930201", 1457698447, "930201", null, "Grossman Nissan", "295 Middlesex Tpke", "Dealership Hours", "2, DC", [ "{\"address\":\"295 Middlesex Tpke\",\"city\":\"Old Saybrook\",\"state\":\"\",\"zip\":\"\"}", "41.3091825", "-72.3819136", null, false ] ]
+, [ 145, "6465782F-A41F-4620-81EB-0D1B3F0498FC", 145, 1457698447, "930201", 1457698447, "930201", null, "Old Saybrook Inn", "2 Bridge Street", "Open 24 Hours-Guests Only", "2", [ "{\"address\":\"2 Bridge Street\",\"city\":\"Old Saybrook\",\"state\":\"\",\"zip\":\"\"}", "41.283282", "-72.35059", null, false ] ]
+, [ 146, "41EA2914-BA98-4502-BCAE-F15889FF4E1F", 146, 1457698447, "930201", 1457698447, "930201", null, "Saybrook Point Marina", "21 Bridge Street", "Open 24 Hours", "2", [ "{\"address\":\"21 Bridge Street\",\"city\":\"Old Saybrook\",\"state\":\"\",\"zip\":\"\"}", "41.282707", "-72.351844", null, false ] ]
+, [ 147, "398C3C90-E1E2-4563-B8E9-8991EAC8F964", 147, 1457698447, "930201", 1457698447, "930201", null, "VW of Old Saybrook", "319 Middlesex Turnpike", "Open 24 Hours", "2", [ "{\"address\":\"319 Middlesex Turnpike\",\"city\":\"Old Saybrook\",\"state\":\"\",\"zip\":\"\"}", "41.310116", "-72.38265", null, false ] ]
+, [ 148, "DEBF3C8C-A70C-4EBB-A7E0-552F1B41E45E", 148, 1457698447, "930201", 1457698447, "930201", null, "Chips Family Restaurant", "321 Boston Post Road", "Open 24 Hours-Guests Only", "2, Tesla", [ "{\"address\":\"321 Boston Post Road\",\"city\":\"Orange\",\"state\":\"\",\"zip\":\"\"}", "41.264627", "-73.004808", null, false ] ]
+, [ 149, "C395F79B-3949-4D55-90EB-85C4754DE987", 149, 1457698447, "930201", 1457698447, "930201", null, "Orange Meadows (Peck Lane)", "550 Boston Post Road", "Open 24 Hours", "DC", [ "{\"address\":\"550 Boston Post Road\",\"city\":\"Orange\",\"state\":\"\",\"zip\":\"\"}", "41.25180054", "-73.01777649", null, false ] ]
+, [ 150, "1735047F-4229-4FA3-B942-E01463686058", 150, 1457698447, "930201", 1457698447, "930201", null, "Crowley Ford", "225 New Britain Ave", "Dealership Hours", "2", [ "{\"address\":\"225 New Britain Ave\",\"city\":\"Plainville\",\"state\":\"\",\"zip\":\"\"}", "41.677956", "-72.842337", null, false ] ]
+, [ 151, "7B1CFB2C-DF21-44DA-94AF-F9CE8448BF96", 151, 1457698447, "930201", 1457698447, "930201", null, "Crowly Volkswagen", "245 New Britain Ave", "Dealership Hours", "2", [ "{\"address\":\"245 New Britain Ave\",\"city\":\"Plainville\",\"state\":\"\",\"zip\":\"\"}", "41.67693", "-72.841182", null, false ] ]
+, [ 152, "E95A09B2-9E54-4141-B851-850BDB959DA2", 152, 1457698447, "930201", 1457698447, "930201", null, "General Electric", "41 Woodford Avenue", "Open 24 Hours", "2", [ "{\"address\":\"41 Woodford Avenue\",\"city\":\"Plainville\",\"state\":\"\",\"zip\":\"\"}", "41.6724723", "-72.8582306", null, false ] ]
+, [ 153, "03E50D0F-C561-4EEF-85C4-8E75E517034D", 153, 1457698447, "930201", 1457698447, "930201", null, "Plainville High School", "47 Robert Holcomb Way", "6 AM-11:45 PM 7 days a week", "2", [ "{\"address\":\"47 Robert Holcomb Way\",\"city\":\"Plainville\",\"state\":\"\",\"zip\":\"\"}", "41.6659341", "-72.8580302", null, false ] ]
+, [ 154, "7DB21910-BD81-43A7-9F7D-308A1C3CF805", 154, 1457698447, "930201", 1457698447, "930201", null, "Plainville Town Hall", "1 Central Square", "Open 24 Hours", "2", [ "{\"address\":\"1 Central Square\",\"city\":\"Plainville\",\"state\":\"\",\"zip\":\"\"}", "41.6717114", "-72.8670213", null, false ] ]
+, [ 155, "38A3849A-F638-40E1-A111-19817E4C2BAB", 155, 1457698447, "930201", 1457698447, "930201", null, "Connecticut Insurance Exchange of Southington", "1133 Meriden Waterbury Turnpike", "Open 24 Hours", "2", [ "{\"address\":\"1133 Meriden Waterbury Turnpike\",\"city\":\"Plantsville\",\"state\":\"\",\"zip\":\"\"}", "41.56426", "-72.8831", null, false ] ]
+, [ 156, "190BD352-7DBE-48A7-B517-4825B6B612D3", 156, 1457698447, "930201", 1457698447, "930201", null, "Pomfret Town Hall", "5 Haven Road", "Open 24 Hours", "2", [ "{\"address\":\"5 Haven Road\",\"city\":\"Pomfret\",\"state\":\"\",\"zip\":\"\"}", "41.859648", "-71.998608", null, false ] ]
+, [ 157, "D2C8BA90-7954-4F10-AA9C-777317C8CA6F", 157, 1457698447, "930201", 1457698447, "930201", null, "Cargill Chevrolet", "23 Livery Street", "Open 24 Hours", "2", [ "{\"address\":\"23 Livery Street\",\"city\":\"Putnam\",\"state\":\"\",\"zip\":\"\"}", "41.915577", "-71.908313", null, false ] ]
+, [ 158, "E6149152-C111-493F-9523-CFCDBA1779C5", 158, 1457698447, "930201", 1457698447, "930201", null, "Putnam Downtown Municipal Parking Lot", "165 Kennedy Drive", "Open 24 Hours", "2", [ "{\"address\":\"165 Kennedy Drive\",\"city\":\"Putnam\",\"state\":\"\",\"zip\":\"\"}", "41.914329", "-71.9105762", null, false ] ]
+, [ 159, "DB555482-731D-4042-AD8F-E1A3B4698232", 159, 1457698447, "930201", 1457698447, "930201", null, "Branchville Rail Station", "U.S. 7 & S.R. 102", "Open 24 Hours", "2", [ "{\"address\":\"U.S. 7 &amp; S.R. 102\",\"city\":\"Ridgefield\",\"state\":\"\",\"zip\":\"\"}", "41.267627", "-73.44164", null, false ] ]
+, [ 160, "FFE4EBE1-1427-4488-A49B-4BC6E3396BE8", 160, 1457698447, "930201", 1457698447, "930201", null, "The Ridgefield Playhouse", "80 East Ridge", "Open 24 Hours", "2", [ "{\"address\":\"80 East Ridge\",\"city\":\"Ridgefield\",\"state\":\"\",\"zip\":\"\"}", "41.282357", "-73.493122", null, false ] ]
+, [ 161, "A843C96E-9DA4-435B-9D7F-9A38F475C71D", 161, 1457698447, "930201", 1457698447, "930201", null, "Town of Ridgefield", "400 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"400 Main Street\",\"city\":\"Ridgefield\",\"state\":\"\",\"zip\":\"\"}", "41.281421", "-73.498417", null, false ] ]
+, [ 162, "304E7412-A117-459E-BF94-D1C62139CAA9", 162, 1457698447, "930201", 1457698447, "930201", null, "Ridgefield BMW", "746 Danbury Road", "Dealership Hours", "2", [ "{\"address\":\"746 Danbury Road\",\"city\":\"Ridgefield\",\"state\":\"\",\"zip\":\"\"}", "41.330578", "-73.472216", null, false ] ]
+, [ 163, "CDEC8F09-EF8A-44A2-AC4E-F2AE546B8F87", 163, 1457698447, "930201", 1457698447, "930201", null, "Tingue Dam Bypass Channel", "Wakeley Street Parking Lot  ", "Open 24 Hours", "2", [ "{\"address\":\"Wakeley Street Parking Lot\",\"city\":\"Seymour\",\"state\":\"\",\"zip\":\"\"}", "41.2335", "-73.0434", null, false ] ]
+, [ 164, "03064B02-7203-477D-AAA5-B7423062F112", 164, 1457698447, "930201", 1457698447, "930201", null, "D'Addario Nissan", "329 Bridgeport Avenue", "Dealership Hours", "2, DC", [ "{\"address\":\"329 Bridgeport Avenue\",\"city\":\"Shelton\",\"state\":\"\",\"zip\":\"\"}", "41.29952", "-73.1063", null, false ] ]
+, [ 165, "A2BAD87B-54CE-4C73-AF0D-0653B21A23D4", 165, 1457698447, "930201", 1457698447, "930201", null, "Congregational Church of Somersville", "22 Maple Street", "Open 24 Hours", "2", [ "{\"address\":\"22 Maple Street\",\"city\":\"Somersville\",\"state\":\"\",\"zip\":\"\"}", "41.983904", "-72.489406", null, false ] ]
+, [ 166, "721E2993-03AD-4542-B692-BB2ABECD5FE9", 166, 1457698447, "930201", 1457698447, "930201", null, "Heritage Hotel - Tesla", "522 Heritage Rd", "Open 24 Hours", "Tesla", [ "{\"address\":\"522 Heritage Rd\",\"city\":\"Southbury\",\"state\":\"\",\"zip\":\"\"}", "41.4880563", "-73.2248163", null, false ] ]
+, [ 167, "88BB82DF-BA60-482A-AE00-FBA3CC95951A", 167, 1457698447, "930201", 1457698447, "930201", null, "All-Phase Electric Supply", "15 Commerce Way", "6 AM-6 PM M-F", "2", [ "{\"address\":\"15 Commerce Way\",\"city\":\"South Windsor\",\"state\":\"\",\"zip\":\"\"}", "41.858024", "-72.600045", null, false ] ]
+, [ 168, "A0C3BB6D-59A4-4ED5-843C-1C70E7FD9C4C", 168, 1457698447, "930201", 1457698447, "930201", null, "Stafford Town Hall", "1 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"1 Main Street\",\"city\":\"Stafford Springs\",\"state\":\"\",\"zip\":\"\"}", "41.953668", "-72.303231", null, false ] ]
+, [ 169, "27D75BE0-83D0-47F7-9665-C478945066BE", 169, 1457698447, "930201", 1457698447, "930201", null, "Bedford Street Garage", "17 Forest Street", "Open 24 Hours", "2", [ "{\"address\":\"17 Forest Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0569153", "-73.5371102", null, false ] ]
+, [ 170, "F707BEDF-84C4-4B5C-80B0-0FAC71BE38C4", 170, 1457698447, "930201", 1457698447, "930201", null, "Bell Street Garage", "28 Bell Street", "Open 24 Hours", "2", [ "{\"address\":\"28 Bell Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0520087", "-73.5407297", null, false ] ]
+, [ 171, "C15A4AAE-CFAE-4BE2-AEF5-006C00AE55B8", 171, 1457698447, "930201", 1457698447, "930201", null, "INFINITYGREEN", "201 Commons Park Street", "Open 24 Hours", "2", [ "{\"address\":\"201 Commons Park Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0410423", "-73.5396723", null, false ] ]
+, [ 172, "3500F006-D948-4C59-B33C-441945E17348", 172, 1457698447, "930201", 1457698447, "930201", null, "Metro Center Garage", "1 Station Place", "Open 24 Hours", "2", [ "{\"address\":\"1 Station Place\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0456376", "-73.5428902", null, false ] ]
+, [ 173, "71BC14A4-7A3B-4293-9592-EF04AA3E42FD", 173, 1457698447, "930201", 1457698447, "930201", null, "NEEDS & Sustainable America  ", "700 Canal Street (at Henry St.)", "Open 24 Hours", "2", [ "{\"address\":\"700 Canal Street (at Henry St.)\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.043886", "-73.532272", null, false ] ]
+, [ 174, "437F44EE-9679-4910-9E4B-87FD4B8191C3", 174, 1457698447, "930201", 1457698447, "930201", null, "One Stamford Plaza", "263 Tresser Blvd", "Open 24 Hours", "1, 2", [ "{\"address\":\"263 Tresser Blvd\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.05184", "-73.5344", null, false ] ]
+, [ 175, "054A3D72-C8BD-4645-8D05-629664E2E124", 175, 1457698447, "930201", 1457698447, "930201", null, "The Dock-Rail Side", "200 East Main Street", "Open 24 Hours", "DC", [ "{\"address\":\"200 East Main Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.20277023", "-73.11752319", null, false ] ]
+, [ 176, "BF11001B-5DA3-4EEE-A389-1D04657AAF86", 176, 1457698447, "930201", 1457698447, "930201", null, "Washington Boulevard Parking Garage", "1340 Washington Blvd", "Open 24 Hours", "2", [ "{\"address\":\"1340 Washington Blvd\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0582867", "-73.5439057", null, false ] ]
+, [ 177, "8355A5F8-B93E-4693-94CD-8183585941DA", 177, 1457698447, "930201", 1457698447, "930201", null, "Prestige VW", "42-46 West Broad Street", "Dealership Hours", "2", [ "{\"address\":\"42-46 West Broad Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0553525", "-73.5464906", null, false ] ]
+, [ 178, "5F4D1EB5-B368-4A91-9533-6C69A50FB71E", 178, 1457698447, "930201", 1457698447, "930201", null, "Ridgeway Lower Level Parking Garage", "2202 Bedford Street", "Open 24 Hours", "DC", [ "{\"address\":\"2202 Bedford Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.06864929", "-73.54598236", null, false ] ]
+, [ 179, "67C26633-2812-47DF-8E9E-9716A40764BF", 179, 1457698447, "930201", 1457698447, "930201", null, "Stamford Government Center Garage", "888 Washington Blvd", "Open 24 Hours", "2", [ "{\"address\":\"888 Washington Blvd\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0522174", "-73.5423234", null, false ] ]
+, [ 180, "723A2A5C-27F1-4AF8-8E7D-4DF75C404352", 180, 1457698447, "930201", 1457698447, "930201", null, "Summer Street Garage", "100 Summer Street", "Garage Hours", "2", [ "{\"address\":\"100 Summer Street\",\"city\":\"Stamford\",\"state\":\"\",\"zip\":\"\"}", "41.0540276", "-73.5407706", null, false ] ]
+, [ 181, "81BE6B5D-93D4-4FBD-B1A0-53EE78C1D850", 181, 1457698447, "930201", 1457698447, "930201", null, "Price Chopper ", "1220 Storrs Road", "Open 24 Hours", "2", [ "{\"address\":\"1220 Storrs Road\",\"city\":\"Storrs\",\"state\":\"\",\"zip\":\"\"}", "41.788489", "-72.229291", null, false ] ]
+, [ 182, "AE25A517-1414-4AF0-80F7-A5B6937BCCCB", 182, 1457698447, "930201", 1457698447, "930201", null, "Mansfield Parking Garage", "9 Dog Lane", "Garage Hours", "2", [ "{\"address\":\"9 Dog Lane\",\"city\":\"Storrs\",\"state\":\"\",\"zip\":\"\"}", "41.8050529", "-72.2432295", null, false ] ]
+, [ 183, "92C0E785-4D66-49C5-B8E8-F91923C1AC58", 183, 1457698447, "930201", 1457698447, "930201", null, "University of Connecticut - Motor Pool", "31 LeDoyt Road", "8 AM-3 PM M-F", "2", [ "{\"address\":\"31 LeDoyt Road\",\"city\":\"Storrs\",\"state\":\"\",\"zip\":\"\"}", "41.811817", "-72.261825", null, false ] ]
+, [ 184, "12B2D171-A61C-4DAD-8E09-092B6D44E254", 184, 1457698447, "930201", 1457698447, "930201", null, "University of Connecticut- South Parking Garage", "505 Stadium Road", "Garage Hours", "2", [ "{\"address\":\"505 Stadium Road\",\"city\":\"Storrs\",\"state\":\"\",\"zip\":\"\"}", "41.805152", "-72.253601", null, false ] ]
+, [ 185, "A127070D-2B12-4DD0-9B4C-EAD00A12F590", 185, 1457698447, "930201", 1457698447, "930201", null, "University of Connecticut- North Parking Garage", "103 Eagleville Road", "Garage Hours", "2", [ "{\"address\":\"103 Eagleville Road\",\"city\":\"Storrs\",\"state\":\"\",\"zip\":\"\"}", "41.800922", "-72.241321", null, false ] ]
+, [ 186, "232A5D3B-6DA0-40CF-9A0E-73017E169811", 186, 1457698447, "930201", 1457698447, "930201", null, "Curran Volkswagon", "2785 Main Street", "Dealership Hours", "2", [ "{\"address\":\"2785 Main Street\",\"city\":\"Stratford\",\"state\":\"\",\"zip\":\"\"}", "41.198467", "-73.131808", null, false ] ]
+, [ 187, "99656BDB-B0E9-4F03-B401-8C413451EE2B", 187, 1457698447, "930201", 1457698447, "930201", null, "Executive Valet Parking at Bradley International Airport", "1186 South Street", "Open 24 Hours", "2", [ "{\"address\":\"1186 South Street\",\"city\":\"Suffield\",\"state\":\"\",\"zip\":\"\"}", "41.951638", "-72.6656968", null, false ] ]
+, [ 188, "67798132-FE42-4EA3-AB62-16BFB3EE9F98", 188, 1457698447, "930201", 1457698447, "930201", null, "Torrington Town Hall", "140 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"140 Main Street\",\"city\":\"Torrington\",\"state\":\"\",\"zip\":\"\"}", "41.803336", "-73.120793", null, false ] ]
+, [ 189, "573F3D46-AABE-4892-BB8C-08B05A5D0CFE", 189, 1457698447, "930201", 1457698447, "930201", null, "Alfano Nissan", "1530 E Main Street", "Dealership Hours", "2", [ "{\"address\":\"1530 E Main Street\",\"city\":\"Torrington\",\"state\":\"\",\"zip\":\"\"}", "41.8191958", "-73.0875574", null, false ] ]
+, [ 190, "CDC72627-49F0-444C-9778-91A5B78A7729", 190, 1457698447, "930201", 1457698447, "930201", null, "Mohegan Sun", "1 Mohegan Sun Blvd", "Open 24 Hours", "1, 2", [ "{\"address\":\"1 Mohegan Sun Blvd\",\"city\":\"Uncasville\",\"state\":\"\",\"zip\":\"\"}", "41.491597", "-72.091456", null, false ] ]
+, [ 191, "4F6C0E75-DFF4-40D8-B9FE-8A06EC64A63C", 191, 1457698447, "930201", 1457698447, "930201", null, "Barberino Nissan", "505 N Colony Street", "Dealership Hours", "2", [ "{\"address\":\"505 N Colony Street\",\"city\":\"Wallingford\",\"state\":\"\",\"zip\":\"\"}", "41.467401", "-72.817451", null, false ] ]
+, [ 192, "A69FF8E2-751C-4FD8-B2FF-3FE49BA70B93", 192, 1457698447, "930201", 1457698447, "930201", null, "Wallingford Shopping Center", "930 North Colony Road", "Open 24 Hours", "2", [ "{\"address\":\"930 North Colony Road\",\"city\":\"Wallingford\",\"state\":\"\",\"zip\":\"\"}", "41.483774", "-72.807124", null, false ] ]
+, [ 193, "E1EE3551-A809-4705-8C4D-EB6D386F8EAE", 193, 1457698447, "930201", 1457698447, "930201", null, "Henny Penny-Hartford Road", "969 Hartford Road", "Open 24 Hours", "2", [ "{\"address\":\"969 Hartford Road\",\"city\":\"Waterford\",\"state\":\"\",\"zip\":\"\"}", "41.3874871", "-72.1591426", null, false ] ]
+, [ 194, "43F67AAF-2C8B-455E-8CA1-ECF15A70A3E5", 194, 1457698447, "930201", 1457698447, "930201", null, "Valenti Motors", "600 Straits Tpke", "Dealership Hours", "2", [ "{\"address\":\"600 Straits Tpke\",\"city\":\"Watertown\",\"state\":\"\",\"zip\":\"\"}", "41.57525", "-73.1005139", null, false ] ]
+, [ 195, "4BDC1B0F-6F86-42FC-8E94-C97E83C8A8AA", 195, 1457698447, "930201", 1457698447, "930201", null, "Arapahoe Parking Lot", "105 Lasalle Road", "Garage Hours", "2", [ "{\"address\":\"105 Lasalle Road\",\"city\":\"West Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7585089", "-72.7445332", null, false ] ]
+, [ 196, "6BDC34D5-7F02-4996-95DF-026531D95D63", 196, 1457698447, "930201", 1457698447, "930201", null, "Corbins Corner Shopping Center", "1445 New Britain Ave", "Open 24 Hours", "Tesla", [ "{\"address\":\"1445 New Britain Ave\",\"city\":\"West Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7257831", "-72.7573662", null, false ] ]
+, [ 197, "6D8686FC-3A60-41D5-941D-AFD8A0DF14D8", 197, 1457698447, "930201", 1457698447, "930201", null, "EDENS (Bishops Corner)", "333 N. Main Street", "Open 24 Hours", "2", [ "{\"address\":\"333 N. Main Street\",\"city\":\"West Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.783595", "-72.748049", null, false ] ]
+, [ 198, "92436180-3241-4B71-B4F1-4DCD34D89914", 198, 1457698447, "930201", 1457698447, "930201", null, "Isham Garage", "17 Isham Road", "Garage Hours", "2", [ "{\"address\":\"17 Isham Road\",\"city\":\"West Hartford\",\"state\":\"\",\"zip\":\"\"}", "41.7608228", "-72.7407631", null, false ] ]
+, [ 199, "315873C8-22AA-4048-8866-5565D8B6D0E6", 199, 1457698447, "930201", 1457698447, "930201", null, "George Harte Nissan", "426 Derby Avenue", "Dealership Hours", "2, DC", [ "{\"address\":\"426 Derby Avenue\",\"city\":\"West Haven\",\"state\":\"\",\"zip\":\"\"}", "41.3077571", "-72.9685927", null, false ] ]
+, [ 200, "FA1A81A2-8CF9-430B-8FA2-7DED2C0DD095", 200, 1457698447, "930201", 1457698447, "930201", null, "Hoffman Nissan", "46 Albany Tpke", "Dealership Hours", "2", [ "{\"address\":\"46 Albany Tpke\",\"city\":\"West Simsbury\",\"state\":\"\",\"zip\":\"\"}", "41.820356", "-72.869086", null, false ] ]
+, [ 201, "2A66C158-6F13-4E2A-869E-F565B50554BC", 201, 1457698447, "930201", 1457698447, "930201", null, "Hoffman of Simsbury Inc.  d/b/a Hoffman Honda", "40 Albany Tpke", "Dealership Hours", "2", [ "{\"address\":\"40 Albany Tpke\",\"city\":\"West Simsbury\",\"state\":\"\",\"zip\":\"\"}", "41.821883", "-72.873778", null, false ] ]
+, [ 202, "A1D2E790-A0A8-4838-A9E5-149CE77927EA", 202, 1457698447, "930201", 1457698447, "930201", null, "Hoffman of West Simsbury Inc.  d/b/a Hoffman Toyota", "36 Albany Tpke", "Dealership Hours", "2", [ "{\"address\":\"36 Albany Tpke\",\"city\":\"West Simsbury\",\"state\":\"\",\"zip\":\"\"}", "41.818657", "-72.868197", null, false ] ]
+, [ 203, "62E2E01B-87DC-4432-B5B2-01C2B2DAEC0A", 203, 1457698447, "930201", 1457698447, "930201", null, "Greensfarms Railroad Station", "2 Post Office Lane", "Open 24 Hours", "2", [ "{\"address\":\"2 Post Office Lane\",\"city\":\"Westport\",\"state\":\"\",\"zip\":\"\"}", "41.122741", "-73.315848", null, false ] ]
+, [ 204, "7CEBBC43-781A-44DF-8252-573A95684A6A", 204, 1457698447, "930201", 1457698447, "930201", null, "Town of Westport - Westport Metro North", "1 Railroad Place (Located at the East Bound Saugatuck Train Station)", "Open 24/7 is a pay lot ", "1, 2", [ "{\"address\":\"1 Railroad Place (Located at the East Bound Saugatuck Train Station)\",\"city\":\"Westport\",\"state\":\"\",\"zip\":\"\"}", "41.119379", "-73.369318", null, false ] ]
+, [ 205, "B03B9AEE-3C22-4264-BB36-5B5FDD9AF43E", 205, 1457698447, "930201", 1457698447, "930201", null, "Town of Westport - Town Hall", "110 Myrtle Avenue", "Open 24 Hours", "2", [ "{\"address\":\"110 Myrtle Avenue\",\"city\":\"Westport\",\"state\":\"\",\"zip\":\"\"}", "41.1450945", "-73.3599921", null, false ] ]
+, [ 206, "ED39392D-1228-4E6D-87CE-B31D169172A3", 206, 1457698447, "930201", 1457698447, "930201", null, "Tri-Town Teachers Federal Credit Union", "61 Jessup Road", "Open 24 Hours", "2", [ "{\"address\":\"61 Jessup Road\",\"city\":\"Westport\",\"state\":\"\",\"zip\":\"\"}", "41.139781", "-73.358518", null, false ] ]
+, [ 207, "6089FED8-DA5B-406A-845C-6716C8674396", 207, 1457698447, "930201", 1457698447, "930201", null, "CT Department of Corrections", "38 Wolcott Hill Road", "Open 24 Hours", "2", [ "{\"address\":\"38 Wolcott Hill Road\",\"city\":\"Wethersfield\",\"state\":\"\",\"zip\":\"\"}", "41.725002", "-72.6724544", null, false ] ]
+, [ 208, "5E46FB15-4DA3-413E-A7AB-7123D8E0D732", 208, 1457698447, "930201", 1457698447, "930201", null, "CT Department of Motor Vehicles", "60 State Street", "8 AM-5 PM M-F", "2", [ "{\"address\":\"60 State Street\",\"city\":\"Wethersfield\",\"state\":\"\",\"zip\":\"\"}", "41.7186625", "-72.655754", null, false ] ]
+, [ 209, "D96FCD67-1C89-44C3-A52B-3CCEC382A7F2", 209, 1457698447, "930201", 1457698447, "930201", null, "Panera Bread", "1129 Silas Deane Hwy", "Open 24 Hours", "2", [ "{\"address\":\"1129 Silas Deane Hwy\",\"city\":\"Wethersfield\",\"state\":\"\",\"zip\":\"\"}", "41.69034", "-72.6559", null, false ] ]
+, [ 210, "9F1537F8-C551-47E7-9585-2C1D478A333B", 210, 1457698447, "930201", 1457698447, "930201", null, "Eastern Connecticut State University-Shakespeare Parking Garage", "24 Charger Oak Drive", "Open 24 Hours", "2", [ "{\"address\":\"24 Charger Oak Drive\",\"city\":\"Willimantic\",\"state\":\"\",\"zip\":\"\"}", "41.738591", "-72.217383", null, false ] ]
+, [ 211, "B9C1A752-F853-4754-992F-A3EA468E190D", 211, 1457698447, "930201", 1457698447, "930201", null, "Bruce Bennett Nissan", "978 Danbury Road", "Dealership Hours", "2", [ "{\"address\":\"978 Danbury Road\",\"city\":\"Wilton\",\"state\":\"\",\"zip\":\"\"}", "41.26043", "-73.435421", null, false ] ]
+, [ 212, "041260DE-34A0-46A4-8D98-8DAEDC4A2C8E", 212, 1457698447, "930201", 1457698447, "930201", null, "Wilton Pubic Library", "137 Old Ridgefield Road", "10 AM-8 PM M-Th, 10 AM-6 PM F, 1 PM", "2", [ "{\"address\":\"137 Old Ridgefield Road\",\"city\":\"Wilton\",\"state\":\"\",\"zip\":\"\"}", "41.192668", "-73.431569", null, false ] ]
+, [ 213, "A69B4D55-6A00-4B2F-A85A-B8775AEFCCEF", 213, 1457698447, "930201", 1457698447, "930201", null, "Windham Town Hall", "979 Main Street", "Open 24 Hours", "2", [ "{\"address\":\"979 Main Street\",\"city\":\"Windham\",\"state\":\"\",\"zip\":\"\"}", "41.71292", "-72.217506", null, false ] ]
+, [ 214, "77C1DB0C-9B96-4156-8582-7E76EC0426FF", 214, 1457698447, "930201", 1457698447, "930201", null, "Woodbridge Town Hall", "11 Meetinghouse Lane", "Open 24 Hours", "2", [ "{\"address\":\"11 Meetinghouse Lane\",\"city\":\"Woodbridge\",\"state\":\"\",\"zip\":\"\"}", "41.354106", "-73.014774", null, false ] ]
+, [ 215, "D5081E48-74DE-4317-B227-1E17037EACAF", 215, 1457698447, "930201", 1457698447, "930201", null, "Illiano's Grill", "257 West Town Street", "Open 24 Hours", "2", [ "{\"address\":\"257 West Town Street\",\"city\":\"Yantic\",\"state\":\"\",\"zip\":\"\"}", "41.557556", "-72.1136", null, false ] ]
+ ]
+}
